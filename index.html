@@ -1,0 +1,415 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Hoolum</title>
+    <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
+
+    <!-- chamadas bootstrap -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <!--chamada de fonts google fonts -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:400,700|Open+Sans&display=swap">
+
+    <!-- chamada material design icons -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    
+    <!-- chamadas estilos padrão -->
+    <link rel="stylesheet" href="css/style.css">
+    <base href="/">
+
+    <link rel="stylesheet" type="text/css" href="http://localhost/hoolum/vendor/lightcase/src/css/lightcase.css">
+    
+
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+  </head>
+  <body>
+    <div class="container-fluid">
+        <div class="panel panel-default">
+                <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top row p-4" id="menu-principal">
+                    <div class="col col-sm-2 float-right-sm">
+                        <a class="navbar-brand" href="#">
+                            <img src="http://localhost/hoolum/img/logo.png" class="img-fluid p-3" width="270" height="54" alt="" >
+                        </a>
+                        
+                    </div>
+                    <div class="col menu-principal pr-5">
+                        <div class="collapse navbar-collapse float-right" id="navbarTogglerDemo02">
+                            <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+                                <li class="nav-item active">
+                                    <a class="nav-link scroll-hoolum" href="#apresentacao" style="transition: all .25s linear;">apresentação</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link scroll-hoolum" href="#servicos" style="transition: all .25s linear;">serviços</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link scroll-hoolum" href="#portfolio" style="transition: all .25s linear;">portfólio</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link scroll-hoolum" href="#depoimentos" style="transition: all .25s linear;">depoimentos</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link scroll-hoolum" href="#contato" style="transition: all .25s linear;">contato</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                </nav>
+
+                    <div class="row pt-5" id="apresentacao">
+                        <div id="carouselExampleSlidesOnly" class="carousel slide pt-5" data-ride="carousel">
+                            <div class="carousel-inner pt-lg-4">
+                                <div class="carousel-item active altura-carosel">
+                                    <img class="d-block w-100" src="http://localhost/hoolum/img/carosel/mQiZnKwGXW0.jpg" alt="First slide">
+                                    <div class="carousel-caption position-absolute d-md-block" style="top:170px;">
+                                        <h6 class="text-right titulo-auxiliar">UM STUDIO DE DESIGN CENTRADO NO USUÁRIO</h6>
+                                        <h4 class="display-4 titulo text-right">Crie conosco o seu produto <br>digital com qualidade</h4>
+                                        <p class="subtitulo subtitulo-sm text-right">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc senectus orci magna arcu dolor. Venenatis egestas habitant.</p>
+                                        <button type="button" class="btn btn-primary btn-hoolum btn-lg float-right pl-5 pr-5 pt-3 pb-3" data-toggle="modal" data-target="#exampleModal"><h6>AGENDAR ATENDIMENTO</h6></button>
+                                    </div>
+                                                                            
+                                    <!-- Modal -->
+                                    <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                        <div class="modal-dialog" role="document">
+                                        <div class="modal-content p-4">
+                                            <div class="modal-header">
+                                            <h5 class="modal-title" id="exampleModalLabel">Agendar Atendimento</h5>
+                                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                                <span aria-hidden="true">&times;</span>
+                                            </button>
+                                            </div>
+                                            <div class="modal-body">
+                                                <form class="" action="" method="">
+                                                    <div class="form-group">
+                                                        <label for="exampleInputEmail1">seu nome</label>
+                                                        <input type="text" class="form-control form-control-lg" id="">
+                                                        <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+                                                    </div>
+                                                    <div class="form-group row">
+                                                        <div class="col">
+                                                            <label for="exampleInputEmail1">email</label>
+                                                            <input type="email" class="form-control form-control-lg" id="">
+                                                        </div>
+                                                        <div class="col">
+                                                            <label for="exampleInputEmail1">telefone</label>
+                                                            <input type="text" class="form-control form-control-lg" id="">
+                                                        </div>
+                                                    </div>
+                                                    <div class="form-group">
+                                                        <label for="exampleInputEmail1">mensagem</label>
+                                                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                                                    </div>
+                                                </form>
+                                            </div>
+                                            <div class="modal-footer">
+                                            <button type="button" class="btn btn-primary">AGENDAR</button>
+                                            </div>
+                                        </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="carousel-item altura-carosel">
+                                    <img class="d-block w-100" src="http://localhost/hoolum/img/carosel/4NZlogMPIp0.jpg" alt="Second slide">
+                                    <div class="carousel-caption d-none d-md-block" style="top:170px;">
+                                        <h6 class="text-right titulo-auxiliar">Lorem ipsum dolor sit amet, consectetur adipiscing elit</h6>
+                                        <h4 class="display-4 titulo text-right">Nunc senectus orci magna arcu dolor. Venenatis egestas habitant.</h4>
+                                        <p class="subtitulo text-right">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc senectus orci magna arcu dolor. Venenatis egestas habitant.</p>
+                                        <button type="button" class="btn btn-danger btn-lg float-right pl-5 pr-5 pt-3 pb-3"><h6>AGENDAR ATENDIMENTO</h6></button>
+                                    </div>
+                                </div>
+                                <div class="carousel-item altura-carosel">
+                                    <img class="d-block w-100" src="http://localhost/hoolum/img/carosel/v3bWNXeInQA.jpg" alt="Third slide">
+                                    <div class="carousel-caption d-none d-md-block" style="top:170px;">
+                                        <h6 class="text-right titulo-auxiliar">UM STUDIO DE DESIGN CENTRADO NO USUÁRIO</h6>
+                                        <h4 class="display-4 titulo text-right">Crie conosco o seu produto <br>digital com qualidade</h4>
+                                        <p class="subtitulo text-right">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc senectus orci magna arcu dolor. Venenatis egestas habitant.</p>
+                                        <button type="button" class="btn btn-info btn-lg float-right pl-5 pr-5 pt-3 pb-3"><h6>AGENDAR ATENDIMENTO</h6></button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row pt-5 pb-5 mx-auto" id="servicos">
+                        <section class="col-12 pt-5">
+                                <div class="row text-center pt-5">
+                                        <h2 class="display-4 text-center col-12 titulo pt-5">serviços</h2>
+                                        <h3 class="text-center col-12 subtitulo subtitulo-sm-hoolum">Lorem ipsum dolor sit amet, consectetur adipiscing elit. <br>Nunc senectus orci magna arcu dolor. Venenatis egestas habitant.</h3>
+                                </div> 
+                            <div class="row p-5">
+                                <div class="col">
+                                    <div class="card p-4 card-servicos mb-4">
+                                        <div class="card-body">
+                                            <i class="material-icons text-hoolum icon-md-hoolum">fingerprint</i>
+                                            <h4 class="card-title">serviço a</h4>
+                                            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <div class="card p-4 card-servicos mb-4">
+                                        <div class="card-body">
+                                            <i class="material-icons text-hoolum icon-md-hoolum">receipt</i>
+                                            <h4 class="card-title">serviço b</h4>
+                                            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col mb-sm-4">
+                                    <div class="card p-4 card-servicos mb-4">
+                                        <div class="card-body">
+                                            <i class="material-icons text-hoolum icon-md-hoolum">view_quilt</i>
+                                            <h4 class="card-title">serviço c</h4>
+                                            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <div class="card p-4 card-servicos mb-4">
+                                        <div class="card-body">
+                                            <i class="material-icons text-hoolum icon-md-hoolum">today</i>
+                                            <h4 class="card-title">serviço d</h4>
+                                            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class="row p-5">
+                                <div class="col">
+                                    <div class="card p-4 card-servicos mb-4">
+                                        <div class="card-body">
+                                            <i class="material-icons text-hoolum icon-md-hoolum">g_translate</i>
+                                            <h4 class="card-title">serviço e</h4>
+                                            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <div class="card p-4 card-servicos mb-4">
+                                        <div class="card-body">
+                                            <i class="material-icons text-hoolum icon-md-hoolum">line_style</i>
+                                            <h4 class="card-title">serviço f</h4>
+                                            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <div class="card p-4 card-servicos mb-4">
+                                        <div class="card-body">
+                                            <i class="material-icons text-hoolum icon-md-hoolum">question_answer</i>
+                                            <h4 class="card-title">serviço g</h4>
+                                            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <div class="card p-4 card-servicos mb-4">
+                                        <div class="card-body">
+                                            <i class="material-icons text-hoolum icon-md-hoolum">all_out</i>
+                                            <h4 class="card-title">serviço h</h4>
+                                            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </section>                
+                    </div>
+
+                    <div class="row p-5" id="portfolio">
+                            <div class="row d-flex justify-content-center p-5">
+                                <div class="row p-5">
+                                    <h2 class="display-4 text-center col-lg-3 col-sm-12 titulo pt-5">portfólio</h2>
+                                    <div class="col-1"></div>
+                                    <h3 class="text-center col-lg-7 col-sm-12 subtitulo pt-5 subtitulo-sm-hoolum">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc senectus orci magna arcu dolor. Venenatis egestas habitant.</h3>
+                                </div>   
+                            </div>
+
+                        <div class="row m-5">
+                            <div class="col-12 pt-0 pb-0 pl-5 pr-5 d-flex justify-content-center">
+                                    <figure class="col-md-3 p-0 mb-0">
+                                        <a href="http://localhost/hoolum/img/portfolio/7fwSiZM.jpg" class="showcase" data-rel="lightcase:myCollection" data-lc-title="Guardiões da Galaxia Vol.2">
+                                        <img alt="picture" src="http://localhost/hoolum/img/portfolio/7fwSiZM.jpg" title="Guardiões da Galaxia Vol.2" alt="Guardiões da Galaxia Vol.2" class="img-fluid" class="img-fluid" />
+                                        </a>
+                                    </figure>
+                                
+                                    <figure class="col-md-3 p-0 mb-0">
+                                        <a href="http://localhost/hoolum/img/portfolio/afuTSMi.jpg" data-size="1600x1067" data-rel="lightcase:myCollection" data-lc-title="Capitão América 3: Guerra Civil">
+                                        <img alt="picture" src="http://localhost/hoolum/img/portfolio/afuTSMi.jpg"  title="Capitão América 3: Guerra Civil" alt="Capitão América 3: Guerra Civil" class="img-fluid" />
+                                        </a>
+                                    </figure>
+                                
+                                    <figure class="col-md-3 p-0 mb-0">
+                                        <a href="http://localhost/hoolum/img/portfolio/BueI8Ml.jpg" data-size="1600x1067" data-rel="lightcase:myCollection" data-lc-title="Os Vingadores">
+                                        <img alt="picture" src="http://localhost/hoolum/img/portfolio/BueI8Ml.jpg" title="Os Vingadores" alt="Os Vingadores" class="img-fluid" />
+                                        </a>
+                                    </figure>
+
+                                    <figure class="col-md-3 p-0 mb-0">
+                                        <a href="http://localhost/hoolum/img/portfolio/dwlZeTO.jpg" data-size="1600x1067" data-rel="lightcase:myCollection" data-lc-title="Vingadores: Ultimato">
+                                        <img alt="picture" src="http://localhost/hoolum/img/portfolio/dwlZeTO.jpg" title="Vingadores: Ultimato" alt="Vingadores: Ultimato" class="img-fluid" />
+                                        </a>
+                                    </figure>
+                            </div>
+
+                            <div class="col-12 pt-0 pb-0 pl-5 pr-5 d-flex justify-content-center">
+                                    <figure class="col-md-3 p-0">
+                                        <a href="http://localhost/hoolum/img/portfolio/uPDmk9E.jpg" data-size="1600x1067" data-rel="lightcase:myCollection" data-lc-title="Vingadores: Guerra Inifinita">
+                                            <img alt="picture" src="http://localhost/hoolum/img/portfolio/uPDmk9E.jpg" class="img-fluid">
+                                        </a>
+                                    </figure>
+                                
+                                    <figure class="col-md-3 p-0">
+                                        <a href="http://localhost/hoolum/img/portfolio/F270PWq.jpg" data-size="1600x1067" data-rel="lightcase:myCollection" data-lc-title="Guardiões da Galáxia Vol.1">
+                                            <img alt="picture" src="http://localhost/hoolum/img/portfolio/F270PWq.jpg" class="img-fluid" />
+                                        </a>
+                                    </figure>
+    
+                                    <figure class="col-md-3 p-0">
+                                        <a href="http://localhost/hoolum/img/portfolio/iNUGSAY.jpg" data-size="1600x1067" data-rel="lightcase:myCollection" data-lc-title="Homem Formiga">
+                                            <img alt="picture" src="http://localhost/hoolum/img/portfolio/iNUGSAY.jpg" class="img-fluid" />
+                                        </a>
+                                    </figure>
+                                
+                                    <figure class="col-md-3 p-0">
+                                        <a href="http://localhost/hoolum/img/portfolio/oqfzwd5.jpg" data-size="1600x1067" data-rel="lightcase:myCollection" data-lc-title="Capitão Marvel">
+                                            <img alt="picture" src="http://localhost/hoolum/img/portfolio/oqfzwd5.jpg" class="img-fluid" />
+                                        </a>
+                                    </figure>
+                                </div>
+                        </div>
+                    </div>
+
+                    <div class="row p-5" id="depoimentos">
+                            <div class="col-12 text-center pt-5">
+                                <h2 class="display-4 text-center col-12 titulo pt-5">depoimentos</h2>
+                                <h3 class="text-center col-12 subtitulo subtitulo-sm-hoolum">Lorem ipsum dolor sit amet, consectetur adipiscing elit. <br>Nunc senectus orci magna arcu dolor. Venenatis egestas habitant.</h3>
+                            </div>
+                        <div class="row p-5">
+                            <div class="col">
+                                <div class="card p-5 mb-4 text-center">
+                                    <img src="http://localhost/hoolum/img/depoimentos/NR705beN_CU.jpg" class="card-img-top img-rounded-hoolum mx-auto" alt="...">
+                                    <div class="card-body">
+                                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                        <h5 class="card-title title-depoimento">depoimento a</h5>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="card p-5 mb-4 text-center">
+                                    <img src="http://localhost/hoolum/img/depoimentos/IHIgnhLvz5Q.jpg" class="card-img-top img-rounded-hoolum mx-auto" alt="...">
+                                    <div class="card-body">
+                                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                        <h5 class="card-title title-depoimento">depoimento b</h5>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="card p-5 mb-4 text-center">
+                                    <img src="http://localhost/hoolum/img/depoimentos/nd0AqhGk5ZI.jpg" class="card-img-top img-rounded-hoolum mx-auto" alt="...">
+                                    <div class="card-body">
+                                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                        <h5 class="card-title title-depoimento">depoimento c</h5>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="card p-5 mb-4 text-center">
+                                    <img src="http://localhost/hoolum/img/depoimentos/pg_WCHWSdT8.jpg" class="card-img-top img-rounded-hoolum mx-auto" alt="...">
+                                    <div class="card-body">
+                                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                        <h5 class="card-title title-depoimento">depoimento d</h5>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!---->
+                    <section class="p-5" id="contato">
+                        <div class="row d-flex justify-content-center p-5">
+                            <div class="row pt-5">
+                                <h2 class="display-4 text-center col-lg-3 col-sm-12 titulo pt-5">contato</h2>
+                                <h3 class="text-center col-lg-8 col-sm-12 subtitulo pt-5 subtitulo-sm-hoolum">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc senectus orci magna arcu dolor. Venenatis egestas habitant.</h3>
+                            </div>   
+                        </div>
+                        <div class="row p-5">
+                            <div class="col-lg-3 col-sm-12 mb-5 mapa">
+                                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3950.533103262171!2d-34.9033318853341!3d-8.046974882600962!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7ab18e4eb9cffbd%3A0xf2d043bdf49cf3c1!2sCondom%C3%ADnio%20Empresarial%20Rui%20Barbosa%20-%20Av.%20Rui%20Barbosa%2C%20715%20-%20Gra%C3%A7as%2C%20Recife%20-%20PE%2C%2052011-040!5e0!3m2!1spt-BR!2sbr!4v1568233719151!5m2!1spt-BR!2sbr" height="400" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+                            </div>
+
+                            <div class="col-1"></div>
+
+                            <div class="col-lg-7 col-sm-12 contato-hoolum">
+                                <form class="formulario-contato" method="post">
+                                    <div class="form-group">
+                                        <label for="exampleInputEmail1">seu nome</label>
+                                        <input type="text" class="form-control form-control-lg" id="">
+                                        <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+                                    </div>
+                                    <div class="form-group row">
+                                        <div class="col">
+                                            <label for="exampleInputEmail1">email</label>
+                                            <input type="email" class="form-control form-control-lg" id="">
+                                        </div>
+                                        <div class="col">
+                                            <label for="exampleInputEmail1">telefone</label>
+                                            <input type="text" class="form-control form-control-lg" id="">
+                                        </div>
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="exampleInputEmail1">mensagem</label>
+                                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                                    </div>
+                                    <div class="form-group row">
+                                        <div class="col d-flex align-items-center">
+                                            <a href="https://www.facebook.com" target="_blank" class="mr-2">
+                                                <img src="http://localhost/hoolum/img/icons/svg/001-facebook.svg" style="width:40px; height:40px;" />
+                                            </a>
+                                            <a href="https://www.linkedin.com" target="_blank" class="mr-2">
+                                                <img src="http://localhost/hoolum/img/icons/svg/002-linkedin.svg" style="width:40px; height:40px;" />
+                                            </a>
+                                            <a href="https://www.instagram.com" target="_blank" target="_blank">
+                                                <img src="http://localhost/hoolum/img/icons/svg/003-instagram.svg" style="width:40px; height:40px;" />
+                                            </a>
+                                        </div>
+                                        <div class="col pt-2">
+                                            <button type="submit" class="btn btn-primary btn-lg btn-block btn-hoolum  pl-5 pr-5 pt-3 pb-3">entre em contato</button>
+                                        </div>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                </section>
+                <div class="row p-2 bg-dark d-flex justify-content-center" id="footer">
+                        <footer class="footer">
+                            <small class="text-small text-light">© Copyright <span class="font-weight-bold">2019 Hoolum LTDA.</span></small>
+                        </footer>
+                    </div>
+        </div>
+    
+    
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+
+    <script type="text/javascript" src="http://localhost/hoolum/vendor/lightcase/src/js/lightcase.js"></script>
+    <script type="text/javascript">
+        jQuery(document).ready(function($) {
+            $('a[data-rel^=lightcase]').lightcase();
+        });
+
+        var $doc = $('html, body');
+        $('.scroll-hoolum').click(function() {
+            $doc.animate({
+                scrollTop: $( $.attr(this, 'href') ).offset().top
+            }, 500);
+            return false;
+        });
+    </script>
+  </body>
+</html>
