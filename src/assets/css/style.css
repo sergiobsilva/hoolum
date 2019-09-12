@@ -1,0 +1,136 @@
+/*
+** Autor: Sèrgio Bezerra da Silva
+** Linkedin: https://www.linkedin.com/in/sergiobslva/
+** Projeto: Hoolum (Testes de Conhecimentos)
+** Data:  12/09/2019 - 02:40
+** Git: https://github.com/sergiobsilva
+*/
+
+/* importando fontes */
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,700|Open+Sans&display=swap');
+
+html, body {
+    background-color: #DEDEDE;
+}
+
+/* background-colors */
+#menu-principal {
+    background-color:rgba(255, 255, 255, 0.8) !important;
+}
+#portfolio {
+    background-color: #E3F6F5;
+}
+
+#depoimentos {
+    background-color: #fff;
+}
+
+#contato {
+    background-color: #F5F5F5;
+}
+
+
+.active .nav-link {
+    color: #2C698D !important;
+}
+
+
+/* configurações gerais */
+.card-servicos .card-body .card-title {
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    font-size: 1.000em;
+    font-weight: bold;
+}
+
+.card-servicos {
+    width: 270px;
+    height: 270px;
+}
+
+.text-hoolum {
+    color: #2C698D;
+}
+
+.bg-hoolum {
+    background-color: #2C698D;
+}
+
+.btn-hoolum {
+    background-color: #2C698D;
+    border-color: #2C698D;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 0.813em;
+    font-weight: bold;
+}
+
+.icon-md-hoolum {
+    font-size: 2.5em;
+}
+
+/* configurações de texto */
+.titulo-auxiliar {
+    text-transform: uppercase;
+    font-size: 1.000em;
+    font-weight: bold;
+    color: #303030;
+}
+
+.titulo{
+    text-transform: uppercase;
+    color: #303030;
+}
+
+.subtitulo {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.563em;
+    font-weight: 500;
+    color: #303030;
+}
+
+/* configurações do carrossel */
+.altura-carosel {
+    height: 650px;
+}
+
+
+/* configurações depoimentos */
+.img-rounded-hoolum {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+}
+
+/* configurações area de contato */
+/* configuraçoes menu */
+.formulario-contato .form-group label, .title-depoimento, .menu-principal .collapse .navbar-nav .nav-item .nav-link {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 0.813em;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+/* BREAKPOINTS */
+/*  Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+    .titulo-auxiliar {
+        font-size: 0.688em;
+    }
+
+    .titulo{
+        font-size: 1.563em;
+    }
+
+    .subtitulo-sm {
+        display: none;
+    }
+
+    .subtitulo-sm-hoolum {
+        font-size: 1.000em;
+    }
+
+    #servicos {
+        margin-top: -400px;
+    }
+}

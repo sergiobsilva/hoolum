@@ -1,0 +1,15 @@
+.nav-item .nav-link {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800;
+    font-size: 12px;
+    line-height: 12px;
+    text-transform: uppercase;
+}
+
+.nav-item {
+    color: #272643;
+}
+
+.active {
+    color: #2C698D !important;
+}
