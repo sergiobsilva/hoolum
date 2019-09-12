@@ -14,7 +14,7 @@ Aplicação em feita em HTML5 / CSS3 / jQuery para teste prático da vaga de Web
 *  UI Design
 *  Estruturação de código front-end
 
-### Diferenciais:
+## Diferenciais:
 *  Utilização de pré-processadores
 *  Criar landing page em Angular2+
 *  Responsivo  
